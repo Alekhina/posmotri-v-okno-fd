@@ -14,7 +14,8 @@ html {
   padding: 133px 30px;
 
   inline-size: 1200px;
-  block-size: 100%;
+  /* block-size: 534px; */
+  min-height: 534px;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -163,7 +164,7 @@ ol {
 .content__video-card {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .content__video-card-thumbnail {
@@ -233,11 +234,11 @@ ol {
 }
 
  .search-form__pseudo-checkbox::after {
-  content: ""; 
+  content: "";
   position: absolute;
   inset: 0;
-  height: 14px;
-  width: 14px;
+  height: 15px;
+  width: 15px;
   background-color: transparent;
   align-self: center;
   justify-self: center;
