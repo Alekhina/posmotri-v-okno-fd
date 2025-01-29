@@ -12,7 +12,6 @@ html {
   display: flex;
   justify-content: center;
   padding: 133px 30px;
-
   inline-size: 1200px;
   /* block-size: 534px; */
   min-height: 534px;
@@ -235,7 +234,7 @@ ol {
 
  .search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
   height: 15px;
   width: 15px;
