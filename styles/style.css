@@ -312,7 +312,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #fff;
-  height: 34px;
+  min-height: 34px;
   border: 1px solid currentColor;
   cursor: pointer;
 }
